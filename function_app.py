@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 @app.schedule(
-    schedule="0 */10 * * * *", 
+    schedule="0 */5 * * * *", 
     arg_name="myTimer", 
     run_on_startup=True,
     use_monitor=False
